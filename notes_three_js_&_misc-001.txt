@@ -1,0 +1,55 @@
+
+three js INTRO:
+
+REFERENCE
+7 Examples Proving Shaders are Amazing
+https://www.youtube.com/watch?v=KGmGdtE2bZs
+Porfolios
+https://www.youtube.com/watch?v=H60ByFADAfs
+
+The Math behind (most) 3D games - Perspective Projection Brendan Galea Brendan Galea  - 387 k vistas hace 3 años
+https://www.youtube.com/watch?v=U0_ONQQ5ZNM
+
+TUTORIALS
+Introduction to shaders: Learn the basics! - Barney Codes (35min)
+https://www.youtube.com/watch?v=3mfvZ-mdtZQ
+
+First Three.js Project — Three.js Journey
+https://threejs-journey.com/lessons/first-threejs-project
+
+Learn Three.js by Building 5 Projects freeCodeCamp.org freeCodeCamp.org Verificada - 52 k vistas hace 2 meses
+https://www.youtube.com/watch?v=UMqNHi1GDAE
+
+Abstract Animation With ThreeJS and GLSL For Beginners Visionary 3D Visionary 3D • • 29 k vistas hace 1 año
+https://www.youtube.com/watch?v=ixEPBzrhgTg
+
+Intro to Compute Shaders Arsiliath Arsiliath - 43 k vistas hace 4 años
+https://www.youtube.com/watch?v=V-yqiLyU27U
+
+Shader image distortion for beginners Barney Codes Barney Codes  - 3.2 K vistas hace 4 días Nuevo
+https://www.youtube.com/watch?v=ZcRptHYY3zM
+
+
+three js ADVANCED:
+Three.js Music Visualizer With Shaders For Beginners Visionary 3D Visionary 3D  - 11 k vistas hace 1 año
+https://www.youtube.com/watch?v=QRpCmBZpBU0
+
+
+
+ two-dimensional Perlin noise function:
+The Beauty of Code: Flow Fields 
+https://www.youtube.com/watch?v=na7LuZsW2UM
+
+
+Mandelbrot in Real-Time: Fractal Shaders with P5js Barney Codes Barney Codes - 3.9 K vistas hace 1 año
+https://www.youtube.com/watch?v=3MKbSw4X3_4
+
+Moebius-style 3D Rendering | Useless Game Dev Useless Game Dev Useless Game Dev - 824 k vistas hace 1 año
+https://www.youtube.com/watch?v=jlKNOirh66E
+
+
+
+
+GODOT
+Welcome to Shaderland - An introduction to shaders in Godot Godotneers Godotneers - 116 k vistas hace 9 meses
+https://www.youtube.com/watch?v=nyFzPaWAzeQ
