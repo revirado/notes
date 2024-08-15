@@ -30,14 +30,16 @@ Shader image distortion for beginners Barney Codes Barney Codes  - 3.2 K vistas 
 https://www.youtube.com/watch?v=ZcRptHYY3zM
 
 
-three js ADVANCED:
-Three.js Music Visualizer With Shaders For Beginners Visionary 3D Visionary 3D  - 11 k vistas hace 1 año
-https://www.youtube.com/watch?v=QRpCmBZpBU0
 
 
 
 
 
+(*)
+Getting Started with Three.js: A Beginner's Tutorial
+Robot Bobby
+https://www.youtube.com/watch?v=XPhAR1YdD6o
+17min
 
 
 
@@ -81,6 +83,11 @@ React Three Fiber & Three.js - Textures Explained
 
 
 
+(learn & game )
+Learn Three.js while building a 3D game with physics
+Hunor Márton Borbély
+https://www.youtube.com/watch?v=hBiGFpBle7E
+35min
 
 
 
@@ -93,6 +100,18 @@ React Three Fiber & Three.js - Textures Explained
 
 
 
+three js ADVANCED:
+Three.js Music Visualizer With Shaders For Beginners Visionary 3D Visionary 3D  - 11 k vistas hace 1 año
+https://www.youtube.com/watch?v=QRpCmBZpBU0
+
+Creating Smooth Scroll & Raycasting with ThreeJS
+https://www.youtube.com/watch?v=U29j5NiSMVQ
+39min
+
+(toroide background particulas)
+Working with Three.js Particle Systems - They're AWESOME!
+https://www.youtube.com/watch?v=dLYMzNmILQA
+32min
 
 
 
