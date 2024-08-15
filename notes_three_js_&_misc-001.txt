@@ -36,6 +36,66 @@ https://www.youtube.com/watch?v=QRpCmBZpBU0
 
 
 
+
+
+
+
+
+
+(***)
+Create a 3D Ripple Animation with React and Three.js using react-three-fiber | A Beginner's Tutorial
+Alvan Caleb Arulandu
+https://www.youtube.com/watch?v=wRmeFtRkF-8
+29min
+
+
+(***)
+check this and check the channel :
+Three.js Dat GUI Tutorial and Setup Guide
+https://www.youtube.com/watch?v=JyhhHhoqK2o
+
+Playlist:
+16 VIDEOS
+https://www.youtube.com/playlist?list=PLTJ_bWjv6i7zjdyy3kQWY_1dADz-3n7iI 
+
+(reflexive surface sphere)
+Three.js Realistic Material Reflection Tutorial in 8 Minutes - Red Stapler
+https://www.youtube.com/watch?v=aJun0Q0CG_A
+
+MATERIALS
+React Three Fiber & Three.js - Materials Explained 🔮
+Threeveloper
+https://www.youtube.com/watch?v=coc0DxZtMKc
+
+ALSO:
+React Three Fiber & Three.js - Lights Explained 
+
+React Three Fiber & Three.js - Textures Explained 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  two-dimensional Perlin noise function:
 The Beauty of Code: Flow Fields 
 https://www.youtube.com/watch?v=na7LuZsW2UM
