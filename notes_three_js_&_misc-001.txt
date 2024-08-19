@@ -77,6 +77,9 @@ React Three Fiber & Three.js - Textures Explained
 
 
 
+https://www.youtube.com/watch?v=o_bEveIFfoM
+https://github.com/anushkachauhxn/particle-galaxy-3js
+
 
 
 
