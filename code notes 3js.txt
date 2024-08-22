@@ -1,0 +1,64 @@
+// Asegúrate de incluir GLTFLoader
+import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
+
+// Función para cargar el modelo y extraer las posiciones
+function loadModelAndCreateParticles(url, callback) {
+  const loader = new GLTFLoader();
+  loader.load(url, (gltf) => {
+    const geometry = gltf.scene.children[0].geometry; // Asegúrate de seleccionar la geometría correcta
+    const positions = geometry.attributes.position.array;
+    
+    callback(positions);
+  });
+}
+
+// Modifica la función addObject para usar posiciones del modelo
+addObject(op, positions) {
+  let count = positions.length / 3; // Calcula el número de vértices
+  let min_radius = op.min_radius;
+  let max_radius = op.max_radius;
+  
+  let particleGeo = new THREE.PlaneBufferGeometry(1, 1);
+  let geo = new THREE.InstancedBufferGeometry();
+  geo.instanceCount = count;
+  geo.setAttribute("position", particleGeo.getAttribute("position"));
+  geo.index = particleGeo.index;
+
+  // Usar las posiciones extraídas del modelo
+  geo.setAttribute(
+    "pos",
+    new THREE.InstancedBufferAttribute(new Float32Array(positions), 3, false)
+  );
+
+  let mat = new THREE.ShaderMaterial({
+    extensions: {
+      derivatives: "#extension GL_OES_standard_derivatives : enable",
+    },
+    side: THREE.DoubleSide,
+    uniforms: {
+      uTexture: { value: new THREE.TextureLoader().load(particleTexture) },
+      uColor: { value: new THREE.Color(op.color) },
+      uMouse: { value: new THREE.Vector3() },
+      uAmp: { value: op.amp },
+      size: { value: op.size },
+      time: { value: 0 },
+      resolution: { value: new THREE.Vector4() },
+    },
+    transparent: true,
+    depthTest: false,
+    vertexShader: vertex,
+    fragmentShader: fragment,
+  });
+  
+  this.materials.push(mat);
+
+  this.points = new THREE.Mesh(geo, mat);
+  this.scene.add(this.points);
+}
+
+// Llama a la función para cargar el modelo y crear las partículas
+loadModelAndCreateParticles('path/to/your/model.glb', (positions) => {
+  opts.forEach((op) => {
+    this.addObject(op, positions);
+  });
+});
